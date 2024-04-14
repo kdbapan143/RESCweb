@@ -159,7 +159,7 @@ footer{
 
 
 @media screen and (max-width: 750px){
-    .home{
+    .home_banner{
         flex-direction: column;
     }
 }
