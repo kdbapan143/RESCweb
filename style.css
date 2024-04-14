@@ -162,6 +162,4 @@ footer{
     .home_banner{
         flex-direction: column;
     }
-    .home_banner .hbannerins img{
-        gap: 5px;
-}
+
