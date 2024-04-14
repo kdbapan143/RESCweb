@@ -163,5 +163,5 @@ footer{
         flex-direction: column;
     }
     .home_banner .hbannerins img{
-        padding: 5px;
+        gap: 5px;
 }
