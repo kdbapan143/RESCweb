@@ -161,5 +161,6 @@ footer{
 @media screen and (max-width: 750px){
     .home_banner{
         flex-direction: column;
+        padding: 5px;
     }
 }
