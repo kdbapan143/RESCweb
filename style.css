@@ -17,24 +17,34 @@
 .nav .nav_menu{
     padding-left: 60%;
 }
+/*
+.home_banner{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(autofit, minmax(345px, 1fr));
+}
 
 
+*/
 .home_banner{
     padding-top: 45px;
-    display: grid;
+    display: flex;
     float: left;
-   grid-template-columns: 345px 345px 345px 255px;
-   /*grid-template-columns: repeat(autofill, minmax(345px, 1fr));*/
+   
+   
     
 }
+
 
 .home_banner .hbannerins{
     display: inline;
 }
 
+
 .home_banner .hbannerins img{
     width: 100%;
     height: 250px;
+    object-fit: cover;
 }
 
 .nav_logo img{
@@ -145,4 +155,11 @@
 footer{
     margin-top: 5%;
     text-align: center;
+}
+
+
+@media screen and (max-width: 750px){
+    .home{
+        flex-direction: column;
+    }
 }
