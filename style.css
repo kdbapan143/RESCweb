@@ -1,0 +1,148 @@
+.nav a{
+    float: left;
+  display: block;
+   text-align: center;
+ padding-top: 50px;
+ padding-left: 80px;
+  text-decoration: none;
+  color: blue;
+ 
+}
+
+.nav a:hover{
+    color: green;
+    font-weight: bolder;
+}
+
+.nav .nav_menu{
+    padding-left: 60%;
+}
+
+
+.home_banner{
+    padding-top: 45px;
+    display: grid;
+    float: left;
+   grid-template-columns: 345px 345px 345px 255px;
+   /*grid-template-columns: repeat(autofill, minmax(345px, 1fr));*/
+    
+}
+
+.home_banner .hbannerins{
+    display: inline;
+}
+
+.home_banner .hbannerins img{
+    width: 100%;
+    height: 250px;
+}
+
+.nav_logo img{
+    position: relative;
+    margin-left: -240%;
+    width: 120;
+    height: 120;
+    border-radius: 50%;
+}
+
+.home_abt{
+    margin-top: 28%;
+    text-align: center;
+}
+
+.home_abt p{
+    font-size: 45;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(76, 62, 202);
+}
+
+.home_abt h2{
+    font-size: 30;
+    color: rgb(0, 87, 250);
+}
+
+.home_con1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
+
+.home_cdetl{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.home_cdetl .htab{
+    display: inline;
+}
+
+.home_cdetl .htab p{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.home_cdetl .htab a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    padding-left: 40px;
+}
+
+.home_cdetl .htab ul{
+    font-size: 20px;
+ 
+}
+
+.home_gallery{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
+
+.home_gins{
+    padding-top: 2px;
+    display: grid;
+    float: left;
+    grid-template-columns: 345px 345px 345px 255px;
+}
+
+.home_gins .hgins1{
+    display: inline;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.home_gins .hgins1 img{
+    width: 100%;
+    height: 250px;
+}
+
+.home_about{
+    margin-top: 45%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green; 
+}
+
+.habtins{
+    margin-top: 2%;
+    font-size: 25px;
+    text-align: justify;
+    font-family: cursive;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
