@@ -158,6 +158,69 @@ footer{
     text-align: center;
 }
 
+.course_abt{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.course_abt p{
+    font-size: 45;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(76, 62, 202);
+}
+
+.course_abt h2{
+    font-size: 30;
+    color: rgb(0, 87, 250);
+}
+
+.course_head h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 182, 47);
+    text-decoration: underline;
+}
+
+.course_shead h1{
+    font-size: 30px;
+    padding-left: 5%;
+    background-color: antiquewhite;
+    color: rgb(13, 75, 245);
+}
+
+.course_shead ul{
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+.contact_about{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact_us h2{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: green;
+}
+
+marquee{
+    font-size: 50px;
+    color: red;
+    margin-top: 15%;
+    background-color: aquamarine;
+}
 
 @media screen and (max-width: 700px){
     .home_banner{
@@ -169,4 +232,5 @@ footer{
     .home_cdetl{
         flex-direction: column;
     }
+    
 }
