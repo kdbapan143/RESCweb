@@ -380,7 +380,7 @@ marquee{
     background-color: aquamarine;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .home_banner{
         flex-direction: column;
     }
@@ -412,13 +412,13 @@ marquee{
 
     .home_abt{
         position: relative;
-        margin-top: 5%;
+        margin-top: 8%;
         text-align: center;
     }
     
     .home_abt p{
-      margin-left: 18%;
-        font-size: 25;
+      margin-left: 19%;
+        font-size: 23;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
         color: rgb(76, 62, 202);
@@ -435,6 +435,14 @@ marquee{
         margin-left: 75%;
       }
 
+ .button_menu {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+  }
       
       .cont_dtl{
         text-align: left;
