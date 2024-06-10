@@ -380,7 +380,7 @@ marquee{
     background-color: aquamarine;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     .home_banner{
         flex-direction: column;
     }
